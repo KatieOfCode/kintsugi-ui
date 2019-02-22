@@ -2,11 +2,11 @@
   "name": "gatsby-starter-storybook",
   "description": "Gatsby Storybook Starter",
   "version": "1.0.0",
-  "author": "Marko Radak <mail@markoradak.com>",
+  "author": "Katie Fujihara",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markoradak/gatsby-starter-storybook"
+    "url": "https: //github.com/KatieOfCode/gatsby-storybook-theme"
   },
   "keywords": [
     "gatsby",
@@ -15,6 +15,11 @@
     "reset-css",
     "eslint",
     "netlify"
+  ],
+  "workspaces": [
+    "themes/*",
+    "sites/*",
+    "vendored-gatsby/packages/gatsby"
   ],
   "scripts": {
     "start": "gatsby develop",

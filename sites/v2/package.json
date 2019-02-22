@@ -1,0 +1,14 @@
+{
+  "name": "V2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Katie Fujihara)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.111",
+    "personal-style": "*"
+  }
+}
