@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https: //github.com/KatieOfCode/gatsby-storybook-theme"
+    "url": "https: //github.com/KatieOfCode/kintsugi-ui"
   },
   "keywords": [
     "gatsby",
@@ -16,17 +16,11 @@
     "eslint",
     "netlify"
   ],
-  "workspaces": [
-    "themes/*",
-    "sites/*",
-    "vendored-gatsby/packages/gatsby"
-  ],
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "storybook": "start-storybook -p 9000 -c .storybook",
-    "build-storybook": "build-storybook -c .storybook -o storybook"
+    "build": "build-storybook -c .storybook -o storybook",
+    "storybook": "start-storybook -p 9000 -c .storybook"
   },
   "dependencies": {
     "gatsby": "^2.0.19",
